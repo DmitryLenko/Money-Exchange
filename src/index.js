@@ -8,7 +8,7 @@ const N = 5;
 const P = 1;
 
    if(currency <= 0) {
-       return object = {};
+       return object;
    } else if(currency > 10000) {
        return object = {error: "You are rich, my friend! We don't have so much coins for exchange"}
    } else {
